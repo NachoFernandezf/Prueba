@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="logo">MiWeb</div>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-content" id="inicio">
+        <div class="text">
+          <p class="eyebrow">Bienvenido</p>
+          <h1>Diseño sencillo y moderno</h1>
+          <p class="subtitle">
+            Creamos páginas limpias, rápidas y funcionales para destacar en internet.
+          </p>
+          <button id="saludoBtn">Haz clic aquí</button>
+        </div>
+
+        <div class="card">
+          <h2>Resumen</h2>
+          <p id="mensaje">Tu idea puede volverse una web increíble.</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="features" id="servicios">
+        <h2>Servicios</h2>
+        <div class="feature-grid">
+          <article class="feature-item">
+            <span>🎨</span>
+            <h3>Diseño</h3>
+            <p>Interfaces atractivas y fáciles de usar.</p>
+          </article>
+          <article class="feature-item">
+            <span>⚙️</span>
+            <h3>Desarrollo</h3>
+            <p>Soluciones funcionales con buen rendimiento.</p>
+          </article>
+          <article class="feature-item">
+            <span>🚀</span>
+            <h3>Optimización</h3>
+            <p>Mejor experiencia para todos los usuarios.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div class="clock-widget" aria-label="reloj analógico">
+      <div class="clock-face">
+        <span class="num num-12">12</span>
+        <span class="num num-1">1</span>
+        <span class="num num-2">2</span>
+        <span class="num num-3">3</span>
+        <span class="num num-4">4</span>
+        <span class="num num-5">5</span>
+        <span class="num num-6">6</span>
+        <span class="num num-7">7</span>
+        <span class="num num-8">8</span>
+        <span class="num num-9">9</span>
+        <span class="num num-10">10</span>
+        <span class="num num-11">11</span>
+
+        <div class="hand hour"></div>
+        <div class="hand minute"></div>
+        <div class="hand second"></div>
+        <div class="center-dot"></div>
+      </div>
+    </div>
+
+    <footer id="contacto">
+      <p>© 2026 MiWeb - Hecho con HTML, CSS y JavaScript</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
